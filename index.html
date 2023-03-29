@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Aditya Jyoti" content="Personal website" />
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/87ce704a58.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="side-nav">
+        <center>
+          <a href="#">
+            <img
+              class="profile-pic"
+              src="static/images/profile-pic.jpg"
+              alt="img"
+            />
+          </a>
+          <p class="name">Aditya Jyoti</p>
+        </center>
+        <hr />
+        <div class="icons-group">
+          <a target="_blank" href="https://github.com/reverend-toady">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://in.linkedin.com/in/aditya-jyoti-b5160a260"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://discordapp.com/users/593036316980019220"
+          >
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/adityajyoti_">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a target="_blank" href="mailto:rev.toady.py@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <hr />
+        <div class="nav-items">
+          <a href="#home-page">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+          <a href="#about-page">
+            <i class="fa-solid fa-user-tie"></i>
+            <span>About</span>
+          </a>
+          <a href="#projects-page">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#blog-page">
+            <i class="fa-solid fa-rss"></i>
+            <span>Blog</span>
+          </a>
+          <a href="#references-page">
+            <i class="fa-solid fa-users"></i>
+            <span>References</span>
+          </a>
+          <a href="#contact-page">
+            <i class="fa-solid fa-address-book"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+        <hr />
+        <p class="copyright">
+          <i class="fa-regular fa-copyright"></i> Copyright
+          <strong>Aditya Jyoti</strong>
+          <br />
+          Made with love and pain
+        </p>
+      </div>
+      <div class="pages">
+        <div class="home">
+          <a id="home-page"></a>
+          <div class="background-video">
+            <video autoplay loop muted>
+              <source src="static/images/background-vid.mp4" type="video/mp4" />
+            </video>
+            <div class="video-overlay">
+              <div class="text-content">
+                <p class="welcome">Hey! I'm Aditya</p>
+                <p class="typewriter">I am <span class="auto-type"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about">
+          <a id="about-page"></a>
+          <h2>About</h2>
+          <hr class="heading-split" />
+          <div class="about-box">
+            <img src="static/images/profile-pic.jpg" alt="img" />
+            <p>
+              <strong class="head"><u>Hey! I am Aditya.</u></strong>
+              <br id="br-head" />
+              You may also know me as <strong>Toady</strong>. I started
+              programming in <strong>March of 2020</strong> and have since fell
+              in love with it. I wish to pursue software engineering as a
+              career, specifically in the backend industry.
+              <br id="br-body" />
+              As a hobby I love to crack jokes and have been a part of three
+              comedy shows throughout my school life. I also enjoy making music
+              be it via my guitar or through digital audio workstations like FL
+              studio.
+              <br id="br-body" />
+              I enjoy coding in <strong>Python</strong>, the language I am most
+              familiar with but am also expanding my grasp taking part in my
+              project <strong>Pathfinding into Programming</strong> which aims
+              to explore various languages and find my new favorite one.
+            </p>
+          </div>
+        </div>
+        <div class="projects">
+          <a id="projects-page"></a>
+          <h2>Projects</h2>
+          <hr class="heading-split" />
+          <div class="projects-box" id="projects-box">
+            <ul>
+              <li data="A* Pathfinding Visualization">
+                <a
+                  target="_blank"
+                  href="https://github.com/Pathfinding-into-Programming/pathfinding-python"
+                >
+                  A* Pathfinding Visualization
+                </a>
+              </li>
+              <li data="Wallpaper Changer">
+                <a
+                  target="_blank"
+                  href="https://github.com/Reverend-Toady/Wallpaper-Changer"
+                >
+                  Wallpaper Changer
+                </a>
+              </li>
+              <li data="Random Playlist Maker">
+                <a
+                  target="_blank"
+                  href="https://github.com/Reverend-Toady/random-playlist-maker"
+                >
+                  Random Playlist Maker
+                </a>
+              </li>
+              <li data="Spotify Downloader">
+                <a
+                  target="_blank"
+                  href="https://github.com/Reverend-Toady/Spotify-Downloader"
+                >
+                  Spotify Downloader
+                </a>
+              </li>
+              <li data="Spotify Keyboard Controller">
+                <a
+                  target="_blank"
+                  href="https://github.com/Reverend-Toady/spotify-keyboard-controller"
+                >
+                  Spotify Keyboard Controller
+                </a>
+              </li>
+              <li data="Ping Pong">
+                <a
+                  target="_blank"
+                  href="https://github.com/Reverend-Toady/Ping-Pong"
+                >
+                  Ping Pong
+                </a>
+              </li>
+              <li data="Dodge Balls">
+                <a
+                  target="_blank"
+                  href="https://github.com/Reverend-Toady/Dodge-Balls"
+                >
+                  Dodge Balls
+                </a>
+              </li>
+            </ul>
+            <a
+              href="https://github.com/Pathfinding-into-Programming/pathfinding-python"
+              target="_blank"
+              id="proj-link"
+            >
+              <div class="project-info">
+                <div class="project-data">
+                  <h4 id="project-head"><u>A* Pathfinding Visualization</u></h4>
+                  <p id="project-text">
+                    A* Search algorithm is one of the best and popular technique
+                    used in path-finding and graph traversals.<br /><br />This
+                    project is a visualization of the pathfinding algorithm.
+                  </p>
+                  <p class="project-meta">
+                    <strong>Language: </strong><span id="language">Python</span>
+                    <br />
+                    <strong>Date: </strong><span id="date">05/02/2023</span>
+                  </p>
+                </div>
+                <img
+                  id="project-image"
+                  src="static/images/A* Pathfinding Visualization.jpg"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="blog">
+          <a id="blog-page"></a>
+          <h2>Blog</h2>
+          <hr class="heading-split" />
+          <div class="blog-box">
+            <p class="blog-description">
+              I run a blog for my project
+              <strong>Pathfinding Into Programming</strong>. The aim of the
+              project is to try and learn the basics about multiple programming
+              languages to find my most favorite one. The blog is where I record
+              my findings and learnings out of this project.
+            </p>
+            <div class="recent-post"><u>Recent Posts</u></div>
+            <a href="#blog-page">
+              <div class="recent-post-box">
+                <div class="blog-text">
+                  <h4><u>Placeholder Title 1</u></h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras sem libero, euismod ut semper eu, consequat vitae odio.
+                    Aenean posuere convallis dolor, in auctor ante.
+                    <br /><br />
+                    In eleifend ornare rhoncus. Fusce a mattis dui. Phasellus
+                    bibendum sagittis hendrerit. Mauris vehicula purus quis
+                    risus sagittis consequat. Aenean sodales nisi ac mi
+                    bibendum, eget tempor quam pellentesque.
+                  </p>
+                  <div class="blog-meta1">
+                    <strong>Date: </strong><span>dd/mm/yyyy</span>
+                  </div>
+                </div>
+                <img class="blog-img" src="static/images/Placeholder.jpg" />
+              </div>
+            </a>
+            <a href="#blog-page">
+              <div class="recent-post-box">
+                <div class="blog-text">
+                  <h4><u>Placeholder Title 2</u></h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras sem libero, euismod ut semper eu, consequat vitae odio.
+                    Aenean posuere convallis dolor, in auctor ante.
+                    <br /><br />
+                    In eleifend ornare rhoncus. Fusce a mattis dui. Phasellus
+                    bibendum sagittis hendrerit. Mauris vehicula purus quis
+                    risus sagittis consequat. Aenean sodales nisi ac mi
+                    bibendum, eget tempor quam pellentesque.
+                  </p>
+                  <div class="blog-meta1">
+                    <strong>Date: </strong><span>dd/mm/yyyy</span>
+                  </div>
+                </div>
+                <img class="blog-img" src="static/images/Placeholder.jpg" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="references">
+          <a id="references-page"></a>
+          <h2>References</h2>
+          <hr class="heading-split" />
+          <div class="references-box">
+            <div class="references-content">
+              <div class="arrow arrow-left">
+                <i class="fa-solid fa-arrow-left" id="left-arrow"></i>
+              </div>
+              <div class="card-list">
+                <div class="card" id="card-inactive-left">
+                  <div class="card-img-title">
+                    <div class="card-image">
+                      <img src="static/images/placeholder-reference2.jpg" />
+                    </div>
+                    <div class="name-title">
+                      <div class="card-name">Name</div>
+                      <div class="card-job">Job</div>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    blandit massa in mi fermentum tempus.
+                  </div>
+                </div>
+                <div class="card" id="card-active-middle" data-idx="1">
+                  <div class="card-img-title">
+                    <div class="card-image">
+                      <img src="static/images/placeholder-reference1.jpg" />
+                    </div>
+                    <div class="name-title">
+                      <div class="card-name">Name</div>
+                      <div class="card-job">Job</div>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    blandit massa in mi fermentum tempus.
+                  </div>
+                </div>
+                <div class="card" id="card-inactive-right">
+                  <div class="card-img-title">
+                    <div class="card-image">
+                      <img src="static/images/placeholder-reference6.jpg" />
+                    </div>
+                    <div class="name-title">
+                      <div class="card-name">Name</div>
+                      <div class="card-job">Job</div>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    blandit massa in mi fermentum tempus.
+                  </div>
+                </div>
+              </div>
+              <div class="arrow arrow-right" id="right-arrow">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <a id="contact-page"></a>
+          <h2>Contact</h2>
+          <hr class="heading-split" />
+          <div class="contact-box">
+            <div class="icon-grid">
+              <a target="_blank" href="https://github.com/reverend-toady">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <p class="icon-title">Github</p>
+            </div>
+            <div class="icon-grid">
+              <a
+                target="_blank"
+                href="https://in.linkedin.com/in/aditya-jyoti-b5160a260"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <p class="icon-title">Linkedin</p>
+            </div>
+            <div class="icon-grid">
+              <a
+                target="_blank"
+                href="https://discordapp.com/users/593036316980019220"
+              >
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <p class="icon-title">Discord</p>
+            </div>
+            <div class="icon-grid">
+              <a target="_blank" href="https://twitter.com/adityajyoti_">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <p class="icon-title">Twitter</p>
+            </div>
+            <div class="icon-grid">
+              <a target="_blank" href="mailto:rev.toady.py@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <p class="icon-title">Gmail</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "an aspiring <u>Software</u> <u>Engineer</u>.",
+          "an avid <u>Tech</u> <u>Enthusiast</u>.",
+          "an amature <u>Music</u> <u>Producer</u>.",
+          "a hobbyist <u>Standup</u> <u>Comedian</u>.",
+        ],
+        typeSpeed: 100,
+        backspeed: 150,
+        loop: true,
+      });
+    </script>
+    <script>
+      let content = {
+        "A* Pathfinding Visualization": [
+          `A* Search algorithm is one of the best and popular technique used in path-finding and graph traversals.\n\nThis project is a visualization of the pathfinding algorithm.`,
+          "Python",
+          "05/02/2023",
+          "https://github.com/Pathfinding-into-Programming/pathfinding-python",
+        ],
+        "Wallpaper Changer": [
+          `This project uses the usplash image API to generate images based on users settings and then pastes custom details on it.\n\nIt then changes said image to the desktop wallpaper`,
+          "Python",
+          "04/10/2022",
+          "https://github.com/Reverend-Toady/Wallpaper-Changer",
+        ],
+
+        "Random Playlist Maker": [
+          `This is a CLI tool which adds songs to a pre made spotify playlist.\n\nThe songs that are being added are of multiple genre and will be of the users liking since they are picked out of their playlists.`,
+          "Python",
+          "02/10/2022",
+          "https://github.com/Reverend-Toady/random-playlist-maker",
+        ],
+        "Spotify Downloader": [
+          `This is a CLI tool which downloads a spotify playlist.\n\n It downloads the MP3 version of the provided spotify playlist`,
+          "Python",
+          "06/09/2022",
+          "https://github.com/Reverend-Toady/Spotify-Downloader",
+        ],
+        "Spotify Keyboard Controller": [
+          `This program is a keyboard controller for spotify\n\nThe program takes control of the keyboard and on press of certain hotkeys can do various things with spotify like play, pause, next etc`,
+          "Python",
+          "09/07/2022",
+          "https://github.com/Reverend-Toady/spotify-keyboard-controller",
+        ],
+        "Ping Pong": [
+          `This is a ping pong game against a pseudo AI enemy.\n\nThe player is has to try and bounce back the ball as many times from its paddle`,
+          "Cpp",
+          "20/12/2021",
+          "https://github.com/Reverend-Toady/Ping-Pong",
+        ],
+        "Dodge Balls": [
+          `This is a dodge ball game where the objective is to dodge the balls that move towards the player as best as possible\n\nThe player is the lone ball that is controlled by the mouse and is the same colour as the enemies`,
+          "Cpp",
+          "19/12/2021",
+          "https://github.com/Reverend-Toady/Dodge-Balls",
+        ],
+      };
+
+      let projImg = document.getElementById("project-image");
+      let projText = document.getElementById("project-text");
+      let projHead = document.getElementById("project-head").querySelector("u");
+      let language = document.getElementById("language");
+      let date = document.getElementById("date");
+      let link = document.getElementById("proj-link");
+
+      let listItems = document
+        .getElementById("projects-box")
+        .querySelector("ul")
+        .querySelectorAll("li");
+
+      listItems.forEach((item) => {
+        item.addEventListener("mouseover", () => {
+          let name = item.getAttribute("data");
+          projImg.src = `static/images/${name}.jpg`;
+          projHead.innerText = name;
+          projText.innerText = content[name][0];
+          language.innerHTML = content[name][1];
+          date.innerHTML = content[name][2];
+          link.href = content[name][3];
+        });
+      });
+    </script>
+    <script>
+      let references = {
+        1: [
+          "static/images/placeholder-reference1.jpg",
+          "Name1",
+          "Job1",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam lacinia metus, sit amet pretium est.",
+        ],
+        2: [
+          "static/images/placeholder-reference2.jpg",
+          "Name2",
+          "Job2",
+          "Duis euismod nulla id mauris blandit, eget faucibus magna posuere. Donec interdum ipsum massa, at iaculis lorem pharetra sagittis.",
+        ],
+        3: [
+          "static/images/placeholder-reference3.jpg",
+          "Name3",
+          "Job3",
+          "Vivamus iaculis volutpat justo id accumsan. Duis fringilla nunc a justo volutpat volutpat.",
+        ],
+        4: [
+          "static/images/placeholder-reference4.jpg",
+          "Name4",
+          "Job4",
+          "Cras a porta diam, eget molestie erat. Vivamus iaculis egestas libero, eu scelerisque massa condimentum eget.",
+        ],
+        5: [
+          "static/images/placeholder-reference5.jpg",
+          "Name5",
+          "Job5",
+          "Morbi finibus lobortis tempor. Nullam eu metus et lorem iaculis ultrices eget ut lacus.",
+        ],
+        6: [
+          "static/images/placeholder-reference6.jpg",
+          "Name6",
+          "Job6",
+          "Suspendisse ultrices vehicula sapien eget feugiat. Aenean in tincidunt ipsum, ac semper augue.",
+        ],
+      };
+
+      let inactive_left = document.getElementById("card-inactive-left");
+      let left_img =
+        inactive_left.getElementsByClassName("card-image")[0].children[0];
+      let [left_name, left_title] =
+        inactive_left.getElementsByClassName("name-title")[0].children;
+      let left_text = inactive_left.getElementsByClassName("card-text")[0];
+
+      let active_middle = document.getElementById("card-active-middle");
+      let middle_img =
+        active_middle.getElementsByClassName("card-image")[0].children[0];
+      let [middle_name, middle_title] =
+        active_middle.getElementsByClassName("name-title")[0].children;
+      let middle_text = active_middle.getElementsByClassName("card-text")[0];
+
+      let inactive_right = document.getElementById("card-inactive-right");
+      let right_img =
+        inactive_right.getElementsByClassName("card-image")[0].children[0];
+      let [right_name, right_title] =
+        inactive_right.getElementsByClassName("name-title")[0].children;
+      let right_text = inactive_right.getElementsByClassName("card-text")[0];
+
+      document.getElementById("left-arrow").addEventListener("click", () => {
+        let currIdx = active_middle.dataset.idx;
+        let len = Object.keys(references).length;
+        let newIdx;
+
+        if (currIdx == 1) {
+          newIdx = 6;
+        } else {
+          newIdx = currIdx - 1;
+        }
+
+        active_middle.dataset.idx = newIdx;
+
+        middle_img.src = references[newIdx][0];
+        middle_name.innerText = references[newIdx][1];
+        middle_title.innerText = references[newIdx][2];
+        middle_text.innerText = references[newIdx][3];
+
+        left_img.src = references[currIdx][0];
+        left_name.innerText = references[currIdx][1];
+        left_title.innerText = references[currIdx][2];
+        left_text.innerText = references[currIdx][3];
+
+        let rightIdx = Number(newIdx) - 1;
+        if (rightIdx == 0) {
+          rightIdx = 6;
+        }
+
+        right_img.src = references[rightIdx][0];
+        right_name.innerText = references[rightIdx][1];
+        right_title.innerText = references[rightIdx][2];
+        right_text.innerText = references[rightIdx][3];
+      });
+
+      document.getElementById("right-arrow").addEventListener("click", () => {
+        let currIdx = active_middle.dataset.idx;
+        let len = Object.keys(references).length;
+        let newIdx;
+
+        if (currIdx == 6) {
+          newIdx = 1;
+        } else {
+          newIdx = Number(currIdx) + 1;
+        }
+
+        active_middle.dataset.idx = newIdx;
+
+        middle_img.src = references[newIdx][0];
+        middle_name.innerText = references[newIdx][1];
+        middle_title.innerText = references[newIdx][2];
+        middle_text.innerText = references[newIdx][3];
+
+        let leftIdx = Number(currIdx) - 1;
+        if (leftIdx == 0) {
+          leftIdx = 6;
+        }
+
+        left_img.src = references[leftIdx][0];
+        left_name.innerText = references[leftIdx][1];
+        left_title.innerText = references[leftIdx][2];
+        left_text.innerText = references[leftIdx][3];
+
+        right_img.src = references[currIdx][0];
+        right_name.innerText = references[currIdx][1];
+        right_title.innerText = references[currIdx][2];
+        right_text.innerText = references[currIdx][3];
+      });
+    </script>
+  </body>
+</html>
