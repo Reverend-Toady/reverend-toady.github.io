@@ -1,0 +1,3 @@
+[telescope]
+find_files = "<leader>pf"
+git_files = "<C-f>"
